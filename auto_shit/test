@@ -1,0 +1,31 @@
+[cases]
+cases1 = test_http
+cases2 = test_http2
+cases3 = test_http3
+
+[case_class]
+cases1 = Testhttp
+cases2 = Testhttp
+cases3 = Testhttp
+
+[case_path]
+cases1 = case
+cases2 = case
+cases3 = case
+
+[environments]
+environment = formal
+
+[result_path]
+debug = E://result.html
+test = E://result.html
+formal = E://result.html
+
+[mail]
+sender = kuan__xu@163.com
+sender_passowrd = fovg62234183
+receiver = yuanjing@kmelearning.com,xukuan@kmelearning.com,wangyang@kmelearning.com,chenzd@kmelearning.com,xuyi@kmelearning.com,zhouyu@kmelearning.com,shenshuo@kmelearning.com
+stmpaddr = smtp.163.com
+msg = 测试报告详情请查看附件
+subject = 测试报告
+
